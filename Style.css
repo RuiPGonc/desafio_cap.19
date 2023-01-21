@@ -1,50 +1,34 @@
 @charset "UTF-08";
 
-body{
+*{
     margin: 0px;
+    padding: 0px;
 }
-ul{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   /* font-size: 5em;*/
+html,body{
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 header{
     background-color: black;
-    color: white;
+    color:white;
     text-align: center;
-    font-size: 350%;
-    padding: 50px;
-  
 }
-header >p{
-    margin: 0px;
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
 }
-#Autor{
-    font-size: 30%;
+header > p{
+    padding-bottom: 50px;
 }
-header > p > a{
+a{
     color: white;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: bolder;
 }
-#Estrofe1{
+a:hover{
+    text-decoration: underline;
+}
+section.normal{
     background-color: white;
-    padding: 15px;
-}
-#Estrofe2{
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.234) url("imagens/background001.jpg") center center no-repeat fixed;
-    background-size: cover;
-}
-#Estrofe3{
-    background-color: white;
-    padding: 15px;
-}
-#Estrofe4{
-    background-color: rgba(2, 2, 2, 0.596);
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.234) url("imagens/background002.jpg") center center no-repeat fixed;
-    background-size: cover;
-}
-#Estrofe5{
-    background-color: white;
-    padding: 15px;
+    color: black;
 }
